@@ -7,7 +7,7 @@ let sayHello = function () {
 }
 
 let message = "You are at Cybrary";
-document.getElementById('btnHello').onclick = ;
+document.getElementById('btnHello').onclick = sayHello;
 
 //Just template code
 const appDiv = document.getElementById('lblMessage');
